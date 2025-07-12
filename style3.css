@@ -1,0 +1,85 @@
+.face{
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  border-radius: 50%;
+  /* position: center;; */
+}
+.mouth{
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  border-radius: 0 0 50px 50px;
+  position: absolute;
+  top: 230px;
+  left: 110px;
+  
+}
+.left, 
+.right{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background-color: rgb(1, 1, 12);
+position: absolute;
+top:70px;
+left :60px;
+}
+
+.right{
+left: 260px;
+}
+
+.inner1,
+.inner2{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: white;
+position: absolute;
+top: 80px;
+left: 75px;
+position: center;
+}
+.inner2{
+  left: 275px;
+}
+
+#container{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 246, 247);
+  border: rgb(10, 213, 232) 5px solid;
+  border-radius: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+#nav{
+  width: 900px;
+  height: 50px;
+  background-color: rgb(243, 128, 205);
+  border: 2px solid rgb(166, 21, 147);
+  border-radius: 10px;;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.option{
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  margin-left: 24px;
+  font-size: 24px;
+  line-height: 50px;;
+}

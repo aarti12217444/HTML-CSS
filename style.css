@@ -1,0 +1,80 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1,h3{
+  color: #b92b27;
+}
+#login{
+  background-color: wheat;
+}
+#signup{
+  background-color: wheat;
+  color: rgb(19, 192, 62);
+}
+.a{
+  color: rgb(19, 192, 62);
+}
+p a{
+  color: purple;
+  background-color: lightpink;
+}
+nav ul li {
+  color: aqua;
+}
+p + h3{
+  text-decoration: underline;
+}
+P + h3{
+  text-decoration: overline;
+}
+.upvote + cass{
+  color: aqua;
+}
+div>input{
+  background-color: lightblue;
+}
+input[type="text"]{
+  color: green;
+}
+input[type="password"]{
+  color: rgb(88, 88, 8);
+}
+input[type]{
+  background-color: lightyellow;
+}
+button:hover{
+  background-color: lime;
+  color: blue;
+}
+h3:hover{
+  text-decoration: wavy;
+}
+button:active{
+  background-color: red;
+}
+p:active{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: chocolate;
+}
+input[type="checkbox"]:checked + label{
+  color: green;
+  font-weight: bold;
+}
+div:nth-of-type(2){
+  background-color: lightgray;
+}
+h1::first-letter{
+  color: red;
+  font-size: 2em;
+}
+h3::first-line{
+  color: rgb(13, 214, 173);
+  font-size: 2em;
+}
+p{
+  color:rgb(19, 192, 62) !important;
+
+}
+p{
+  color: sienna;
+}
